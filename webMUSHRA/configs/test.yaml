@@ -1,0 +1,64 @@
+testname: webMUSHRA Spatial Audio Listening Test
+testId: Spatial_Audio_Test
+bufferSize: 2048
+stopOnErrors: true
+showButtonPreviousPage: true
+remoteService: service/write.php
+
+
+pages:
+    - type: generic
+      id: first_page
+      name: Welcome
+      content: Welcome to the Spatial Audio Listening Test. <br/> There are 11 different audio samples which contain 3 tests each. <br/> The three tests for each file are arragned as follows: <br/>Timbral Quality (Tonal Quality)<br/>Localisation Accuracy<br/>Diffuseness
+    - type: mushra
+      id: America_1
+      name: TIMBRAL (TONAL) QUALITY
+      content: In a MUSHRA listening test you are asked to rate the Basic Audio Quality (BAQ) for a given condition for the detected differences between the reference and the condition.
+      showWaveform: true
+      enableLooping: true 
+      reference: C1: configs/resources/audio/Binaural-Clipped-MUSHRA\America\orig.wav
+      createAnchor35: true
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/Binaural-Clipped-MUSHRA\America\32.wav
+          C2: configs/resources/audio/Binaural-Clipped-MUSHRA\America\64.wav
+          C3: configs/resources/audio/Binaural-Clipped-MUSHRA\America\128.wav
+          C4: configs/resources/audio/Binaural-Clipped-MUSHRA\America\256.wav
+          C5: configs/resources/audio/Binaural-Clipped-MUSHRA\America\orig.wav
+    -
+    - type: finish
+      name: Thank you
+      content: Thank you for attending!
+      showResults: false
+      writeResults: true
+      questionnaire:
+          - type: text
+            label: eMail
+            name: email
+          - type: number
+            label: Age
+            name: age
+            min: 0
+            max: 100
+            default: 20
+          - type: likert
+            name: gender
+            label: Gender
+            response:
+             - value: female
+               label: Female
+             - value: male
+               label: Male
+             - value: other
+               label: Other
+          - type: likert
+            name: experience
+            label: Listening Test Experience
+            response:
+             - value: none
+               label: None
+             - value: little
+               label: Little (1 or 2 previous tests)
+             - value: extensive
+               label: Considerable (Many Tests, Trained Listener)	   

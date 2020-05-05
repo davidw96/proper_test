@@ -1,0 +1,180 @@
+testname: webMUSHRA Spatial Audio Listening Test
+testId: Spatial_Audio_Test
+bufferSize: 2048
+stopOnErrors: true
+showButtonPreviousPage: true
+remoteService: service/write.php
+
+
+pages:
+    - type: generic
+      id: first_page
+      name: Welcome
+      content: Welcome to the Spatial Audio Listening Test. <br/> There are 11 different audio samples. <br/> Please rate the test files from 0-100 on how similar the Timbral Quality (Tonal Quality) is to the available reference.
+    - type: mushra
+      id: America
+      name: TIMBRAL (TONAL) QUALITY
+      content: Please rate the test files from 0-100 on how similar the Timbral Quality (Tonal Quality) is to the available reference.
+      showWaveform: true
+      enableLooping: true 
+      reference: configs/resources/audio/Binaural_noEQ/America_noEQ.wav
+      createAnchor35: true
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/Binaural_noEQ/America_noEQ32.wav
+          C2: configs/resources/audio/Binaural_noEQ/America_noEQ64.wav
+          C3: configs/resources/audio/Binaural_noEQ/America_noEQ128.wav
+          C4: configs/resources/audio/Binaural_noEQ/America_noEQ16.wav
+          C5: configs/resources/audio/Binaural_noEQ/America_noEQ8.wav
+    - type: mushra
+      id: khorios_1
+      name: TIMBRAL (TONAL) QUALITY
+      content: Please rate the test files from 0-100 on how similar the Timbral Quality (Tonal Quality) is to the available reference.
+      showWaveform: true
+      enableLooping: true 
+      reference: configs/resources/audio/Binaural_noEQ/Khorios_noEQ.wav
+      createAnchor35: true
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/Binaural_noEQ/Khorios_noEQ32.wav
+          C2: configs/resources/audio/Binaural_noEQ/Khorios_noEQ64.wav
+          C3: configs/resources/audio/Binaural_noEQ/Khorios_noEQ128.wav
+          C4: configs/resources/audio/Binaural_noEQ/Khorios_noEQ16.wav
+          C5: configs/resources/audio/Binaural_noEQ/Khorios_noEQ8.wav
+    - type: mushra
+      id: Gondola_1
+      name: TIMBRAL (TONAL) QUALITY
+      content: Please rate the test files from 0-100 on how similar the Timbral Quality (Tonal Quality) is to the available reference.
+      showWaveform: true
+      enableLooping: true 
+      reference: configs/resources/audio/Binaural_noEQ/Gondola_noEQ.wav
+      createAnchor35: true
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/Binaural_noEQ/Gondola_noEQ32.wav
+          C2: configs/resources/audio/Binaural_noEQ/Gondola_noEQ64.wav
+          C3: configs/resources/audio/Binaural_noEQ/Gondola_noEQ128.wav
+          C4: configs/resources/audio/Binaural_noEQ/Gondola_noEQ16.wav
+          C5: configs/resources/audio/Binaural_noEQ/Gondola_noEQ8.wav
+    - type: mushra
+      id: Multi-Story_1
+      name: TIMBRAL (TONAL) QUALITY
+      content: Please rate the test files from 0-100 on how similar the Timbral Quality (Tonal Quality) is to the available reference.
+      showWaveform: true
+      enableLooping: true 
+      reference: configs/resources/audio/Binaural_noEQ/Multi-Story_noEQ.wav
+      createAnchor35: true
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/Binaural_noEQ/Multi-Story_noEQ32.wav
+          C2: configs/resources/audio/Binaural_noEQ/Multi-Story_noEQ64.wav
+          C3: configs/resources/audio/Binaural_noEQ/Multi-Story_noEQ128.wav
+          C4: configs/resources/audio/Binaural_noEQ/Multi-Story_noEQ16.wav
+          C5: configs/resources/audio/Binaural_noEQ/Multi-Story_noEQ8.wav
+    - type: mushra
+      id: Octomic_1
+      name: TIMBRAL (TONAL) QUALITY
+      content: Please rate the test files from 0-100 on how similar the Timbral Quality (Tonal Quality) is to the available reference.
+      showWaveform: true
+      enableLooping: true 
+      reference: configs/resources/audio/Binaural_noEQ/Octomic_noEQ.wav
+      createAnchor35: true
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/Binaural_noEQ/Octomic_noEQ32.wav
+          C2: configs/resources/audio/Binaural_noEQ/Octomic_noEQ64.wav
+          C3: configs/resources/audio/Binaural_noEQ/Octomic_noEQ128.wav
+          C4: configs/resources/audio/Binaural_noEQ/Octomic_noEQ16.wav
+          C5: configs/resources/audio/Binaural_noEQ/Octomic_noEQ8.wav
+    - type: mushra
+      id: RAF-100_1
+      name: TIMBRAL (TONAL) QUALITY
+      content: Please rate the test files from 0-100 on how similar the Timbral Quality (Tonal Quality) is to the available reference.
+      showWaveform: true
+      enableLooping: true 
+      reference: configs/resources/audio/Binaural_noEQ/RAF_100_noEQ.wav
+      createAnchor35: true
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/Binaural_noEQ/RAF_noEQ32.wav
+          C2: configs/resources/audio/Binaural_noEQ/RAF_noEQ64.wav
+          C3: configs/resources/audio/Binaural_noEQ/RAF_noEQ128.wav
+          C4: configs/resources/audio/Binaural_noEQ/RAF_noEQ16.wav
+          C5: configs/resources/audio/Binaural_noEQ/RAF_noEQ8.wav
+    - type: mushra
+      id: Spitfire_1
+      name: TIMBRAL (TONAL) QUALITY
+      content: Please rate the test files from 0-100 on how similar the Timbral Quality (Tonal Quality) is to the available reference.
+      showWaveform: true
+      enableLooping: true 
+      reference: configs/resources/audio/Binaural_noEQ/Spitfire_noEQ.wav
+      createAnchor35: true
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/Binaural_noEQ/Spitfire_noEQ32.wav
+          C2: configs/resources/audio/Binaural_noEQ/Spitfire_noEQ64.wav
+          C3: configs/resources/audio/Binaural_noEQ/Spitfire_noEQ128.wav
+          C4: configs/resources/audio/Binaural_noEQ/Spitfire_noEQ16.wav
+          C5: configs/resources/audio/Binaural_noEQ/Spitfire_noEQ8.wav
+    - type: mushra
+      id: somebody2love_1
+      name: TIMBRAL (TONAL) QUALITY
+      content: Please rate the test files from 0-100 on how similar the Timbral Quality (Tonal Quality) is to the available reference.
+      showWaveform: true
+      enableLooping: true 
+      reference: configs/resources/audio/Binaural_noEQ/Somebody_noEQ.wav
+      createAnchor35: true
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/Binaural_noEQ/Somebody_noEQ32.wav
+          C2: configs/resources/audio/Binaural_noEQ/Somebody_noEQ64.wav
+          C3: configs/resources/audio/Binaural_noEQ/Somebody_noEQ128.wav
+          C4: configs/resources/audio/Binaural_noEQ/Somebody_noEQ16.wav
+          C5: configs/resources/audio/Binaural_noEQ/Somebody_noEQ8.wav
+    - type: finish
+      name: Thank you
+      content: Thank you for attending!
+      showResults: false
+      writeResults: true
+      questionnaire:
+          - type: text
+            label: eMail
+            name: email
+          - type: number
+            label: Age
+            name: age
+            min: 0
+            max: 100
+            default: 20
+          - type: likert
+            name: gender
+            label: Gender
+            response:
+             - value: female
+               label: Female
+             - value: male
+               label: Male
+             - value: other
+               label: Other
+          - type: likert
+            name: experience
+            label: Listening Test Experience
+            response:
+             - value: none
+               label: None
+             - value: little
+               label: Little (1 or 2 previous tests)
+             - value: extensive
+               label: Considerable (Many Tests, Trained Listener)
+          - type: likert
+            name: detail
+            label: Do you work with Audio professionally? If so, for how long?
+            response: 
+             - value: none
+               label: 0 years
+             - value: little
+               label: 1-3 years
+             - value: intermed
+               label: 3-5 years
+             - value: extensive
+               label: 5+ years             
