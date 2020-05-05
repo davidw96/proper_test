@@ -125,7 +125,7 @@ localizer.initializeNLSFragments(nls);
 
 var config = null;
 var configArg = getParameterByName("config");
-var configFile = '';
+var configFile = 'configs/listening_test_EQ.yaml';
 if (configArg) {
     configFile = 'configs/' + configArg;
 } else {
