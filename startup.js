@@ -129,7 +129,7 @@ var configFile = '';
 if (configArg) {
     configFile = 'configs/' + configArg;
 } else {
-    configFile = 'configs/default.yaml';
+    configFile = 'configs/listening_test_EQ.yaml';
   }
 
   var pageManager = null;
