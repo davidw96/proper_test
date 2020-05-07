@@ -39,7 +39,7 @@ pages:
       content: Please rate the test files from 0-100 on how similar the horizontal position of the sound source is to the available reference.
       showWaveform: true
       enableLooping: true 
-      reference: configs/resources/audio/Binaural_noEQ/America_noEQ.wav
+      reference: configs/resources/audio/mono_ref.wav
       createAnchor35: true
       createAnchor70: false
       stimuli:
@@ -52,7 +52,7 @@ pages:
       content: Please rate the test files from 0-100 on how similar the elevation of the sound source is to the available reference.
       showWaveform: true
       enableLooping: true 
-      reference: configs/resources/audio/Binaural_noEQ/America_noEQ.wav
+      reference: configs/resources/audio/mono_ref.wav
       createAnchor35: true
       createAnchor70: false
       stimuli:
@@ -65,7 +65,7 @@ pages:
       content: Please rate the test files from 0-100 on how similar the positions of both sound sources are to the available reference.
       showWaveform: true
       enableLooping: true 
-      reference: configs/resources/audio/Binaural_noEQ/Khorios_noEQ.wav
+      reference: configs/resources/audio/mono_ref.wav
       createAnchor35: true
       createAnchor70: false
       stimuli:
@@ -78,7 +78,7 @@ pages:
       content: Please rate the test files from 0-100 on how similar the positions of both sound sources are to the available reference.
       showWaveform: true
       enableLooping: true 
-      reference: configs/resources/audio/Binaural_noEQ/Khorios_noEQ.wav
+      reference: configs/resources/audio/mono_ref.wav
       createAnchor35: true
       createAnchor70: false
       stimuli:
@@ -91,7 +91,7 @@ pages:
       content: Please rate the test files from 0-100 on how similar the width of the source sounds, comapared to the available reference.
       showWaveform: true
       enableLooping: true 
-      reference: configs/resources/audio/Binaural_noEQ/Gondola_noEQ.wav
+      reference: configs/resources/audio/mono_ref.wav
       createAnchor35: true
       createAnchor70: false
       stimuli:
