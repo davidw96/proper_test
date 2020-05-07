@@ -43,10 +43,9 @@ pages:
       createAnchor35: true
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/Binaural_noEQ/America_noEQ32.wav
-          C2: configs/resources/audio/Binaural_noEQ/America_noEQ64.wav
-          C3: configs/resources/audio/Binaural_noEQ/America_noEQ128.wav
-          C4: configs/resources/audio/Binaural_noEQ/America_noEQ16.wav
+          C1: configs/resources/audio/mono_c1.wav
+          C2: configs/resources/audio/mono_c2.wav
+          C3: configs/resources/audio/mono_c3.wav
     - type: mushra
       id: locAccElev
       name: ELEVATION LOCALISATION ACCURACY
@@ -57,10 +56,9 @@ pages:
       createAnchor35: true
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/Binaural_noEQ/America_noEQ32.wav
-          C2: configs/resources/audio/Binaural_noEQ/America_noEQ64.wav
-          C3: configs/resources/audio/Binaural_noEQ/America_noEQ128.wav
-          C4: configs/resources/audio/Binaural_noEQ/America_noEQ16.wav		  
+          C1: configs/resources/audio/mono_c1.wav
+          C2: configs/resources/audio/mono_c2.wav
+          C3: configs/resources/audio/mono_c3.wav		  
     - type: mushra
       id: localisation
       name: MULTIPLE SOURCE LOCALISATION
@@ -71,10 +69,9 @@ pages:
       createAnchor35: true
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/Binaural_noEQ/Khorios_noEQ32.wav
-          C2: configs/resources/audio/Binaural_noEQ/Khorios_noEQ64.wav
-          C3: configs/resources/audio/Binaural_noEQ/Khorios_noEQ128.wav
-          C4: configs/resources/audio/Binaural_noEQ/Khorios_noEQ16.wav
+          C1: configs/resources/audio/mono_c1.wav
+          C2: configs/resources/audio/mono_c2.wav
+          C3: configs/resources/audio/mono_c3.wav
     - type: mushra
       id: localiseOpp
       name: MULTIPLE SOURCE LOCALISATION
@@ -85,10 +82,9 @@ pages:
       createAnchor35: true
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/Binaural_noEQ/Khorios_noEQ32.wav
-          C2: configs/resources/audio/Binaural_noEQ/Khorios_noEQ64.wav
-          C3: configs/resources/audio/Binaural_noEQ/Khorios_noEQ128.wav
-          C4: configs/resources/audio/Binaural_noEQ/Khorios_noEQ16.wav	  
+          C1: configs/resources/audio/mono_c1.wav
+          C2: configs/resources/audio/mono_c2.wav
+          C3: configs/resources/audio/mono_c3.wav	  
     - type: mushra
       id: ASW
       name: APPARENT SOURCE WIDTH
@@ -99,10 +95,9 @@ pages:
       createAnchor35: true
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/Binaural_noEQ/Gondola_noEQ32.wav
-          C2: configs/resources/audio/Binaural_noEQ/Gondola_noEQ64.wav
-          C3: configs/resources/audio/Binaural_noEQ/Gondola_noEQ128.wav
-          C4: configs/resources/audio/Binaural_noEQ/Gondola_noEQ16.wav
+          C1: configs/resources/audio/mono_c1.wav
+          C2: configs/resources/audio/mono_c2.wav
+          C3: configs/resources/audio/mono_c3.wav
     - type: finish
       name: Thank you
       content: Thank you for attending!
