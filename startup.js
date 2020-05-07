@@ -125,11 +125,11 @@ localizer.initializeNLSFragments(nls);
 
 var config = null;
 var configArg = getParameterByName("config");
-var configFile = 'configs/listening_test_EQ.yaml';
+var configFile = 'configs/Decoder_test.yaml';
 if (configArg) {
     configFile = 'configs/' + configArg;
 } else {
-    configFile = 'configs/listening_test_EQ.yaml';
+    configFile = 'configs/Decoder_test.yaml';
   }
 
   var pageManager = null;
