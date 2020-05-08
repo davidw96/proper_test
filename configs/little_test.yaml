@@ -34,6 +34,45 @@ pages:
         
         
     - type: mushra
+      id: localiseClose
+      name: CLOSE PROXIMITY SOURCE LOCALISATION; CUBE LAYOUT
+      content: Please rate the test files from 0-100 on how similar the positions of both sound sources are to the available reference.
+      showWaveform: true
+      enableLooping: true 
+      reference: configs/resources/audio/Localisation_Cube/Close/localisation_close_ref.wav
+      createAnchor35: true
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/Localisation_Cube/Close/localisation_AllRad_close.wav
+          C2: configs/resources/audio/Localisation_Cube/Close/localisation_Harpex_close.wav
+          C3: configs/resources/audio/Localisation_Cube/Close/localisation_DTS_close.wav
+    - type: mushra
+      id: localiseOpp
+      name: CLOSE PROXIMITY SOURCE LOCALISATION; 7.1.4 LAYOUT
+      content: Please rate the test files from 0-100 on how similar the positions of both sound sources are to the available reference.
+      showWaveform: true
+      enableLooping: true 
+      reference: configs/resources/audio/Localisation_7.1.4/Close/localisation_close_ref.wav
+      createAnchor35: true
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/Localisation_7.1.4/Close/localisation_AllRad_close.wav
+          C2: configs/resources/audio/Localisation_7.1.4/Close/localisation_Harpex_close.wav
+          C3: configs/resources/audio/Localisation_7.1.4/Close/localisation_DTS_close.wav
+    - type: mushra
+      id: localiseClose
+      name: DIAMETRICALLY OPPOSITE SOURCE LOCALISATION; 
+      content: Please rate the test files from 0-100 on how similar the positions of both sound sources are to the available reference.
+      showWaveform: true
+      enableLooping: true 
+      reference: configs/resources/audio/Localisation_Cube/Opposite/localisation_opposite_ref.wav
+      createAnchor35: true
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/Localisation_Cube/Opposite/localisation_AllRad_opposite.wav
+          C2: configs/resources/audio/Localisation_Cube/Opposite/localisation_Harpex_opposite.wav
+          C3: configs/resources/audio/Localisation_Cube/Opposite/localisation_DTS_opposite.wav        
+    - type: mushra
       id: localiseOpp
       name: DIAMETRICALLY OPPOSITE SOURCE LOCALISATION
       content: Please rate the test files from 0-100 on how similar the positions of both sound sources are to the available reference.
