@@ -1,0 +1,249 @@
+--- 
+bufferSize: 2048
+pages: 
+  - 
+    content: "Welcome to the Ambisonic Decoder Listening Test <br/> There are halves to this test. Part 1 is based on tracks containing sound source characteristics <br/> while part 2 will be based around more environmental characteristics. <br/> Once all tests are finished, please fill ot the questinonnaire and submit the results <br/> You may take a break or pull out from doing the test at any moment <br/> Thank you! <br/>\n"
+    id: first_page
+    name: Welcome
+    type: generic
+  - 
+    content: "This is the first half of the test. This half will test three different characteristics; <br/> Localisation accuracy, Localisation and Apparent Source width <br/> <br/> For each characteristic there will be an available reference on the left hand side of the page which you can listen to at any time. <br/> There will be a number of audio files for you to listen to which must be rated from 0-100 using the associated sliders. <br/> This rating should be based on how similar the selected audio file is to the reference file for the given characteristic. <br/> A rating of 0 would describe the chosen file as pure noise and a rating of 100 would state the file has no difference to the available reference. <br/> <br/> Please ensure to compare the selected track against the REFERENCE ONLY and not to the other audio files. <br/> <br/> There are also two sliders under the waveform of the audio file. <br/> These can be dragged at any time to listen to certain points of the audio file in a looped fashion. <br/>\n"
+    id: Instructions
+    name: Instructions
+    type: generic
+  - 
+    content: "Please rate the test files from 0-100 on how similar the horizontal position of the sound source is to the available reference."
+    createAnchor35: true
+    createAnchor70: false
+    enableLooping: true
+    id: locAccHor
+    name: "HORIZONTAL LOCALISATION ACCURACY; CUBE LAYOUT, AT SPEAKER"
+    reference: configs/resources/audio/LocAcc_Horiz_Cube/At_Speaker/locAcc_cube_speaker_ref.wav
+    showWaveform: true
+    stimuli: 
+      C1: configs/resources/audio/LocAcc_Horiz_Cube/At_Speaker/locAcc_cube_allRad_speaker.wav
+      C2: configs/resources/audio/LocAcc_Horiz_Cube/At_Speaker/locAcc_cube_Harpex_speaker.wav
+      C3: configs/resources/audio/LocAcc_Horiz_Cube/At_Speaker/locAcc_cube_DTS_speaker.wav
+    type: mushra
+  - 
+    content: "Please rate the test files from 0-100 on how similar the elevation of the sound source is to the available reference."
+    createAnchor35: true
+    createAnchor70: false
+    enableLooping: true
+    id: locAccElev
+    name: "HORIZONTAL LOCALISATION ACCURACY; CUBE LAYOUT, BETWEEN SPEAKERS"
+    reference: configs/resources/audio/LocAcc_Horiz_Cube/Between_Speaker/locAcc_cube_between_ref.wav
+    showWaveform: true
+    stimuli: 
+      C1: configs/resources/audio/LocAcc_Horiz_Cube/Between_Speaker/locAcc_cube_allRad_between.wav
+      C2: configs/resources/audio/LocAcc_Horiz_Cube/Between_Speaker/locAcc_cube_Harpex_between.wav
+      C3: configs/resources/audio/LocAcc_Horiz_Cube/Between_Speaker/locAcc_cube_DTS_between.wav
+    type: mushra
+  - 
+    content: "Please rate the test files from 0-100 on how similar the horizontal position of the sound source is to the available reference."
+    createAnchor35: true
+    createAnchor70: false
+    enableLooping: true
+    id: locAccHor
+    name: "HORIZONTAL LOCALISATION ACCURACY; 7.1.4 LAYOUT, AT SPEAKER"
+    reference: configs/resources/audio/LocAcc_Horiz_7.1.4/At_Speaker/locAcc_7.1.4_speaker_ref.wav
+    showWaveform: true
+    stimuli: 
+      C1: configs/resources/audio/LocAcc_Horiz_7.1.4/At_Speaker/locAcc_7.1.4_allRad_speaker.wav
+      C2: configs/resources/audio/LocAcc_Horiz_7.1.4/At_Speaker/locAcc_7.1.4_Harpex_speaker.wav
+      C3: configs/resources/audio/LocAcc_Horiz_7.1.4/At_Speaker/locAcc_7.1.4_DTS_speaker.wav
+    type: mushra
+  - 
+    content: "Please rate the test files from 0-100 on how similar the elevation of the sound source is to the available reference."
+    createAnchor35: true
+    createAnchor70: false
+    enableLooping: true
+    id: locAccElev
+    name: "HORIZONTAL LOCALISATION ACCURACY; 7.1.4 LAYOUT, BETWEEN SPEAKERS"
+    reference: configs/resources/audio/LocAcc_Horiz_7.1.4/Between_Speaker/locAcc_7.1.4_between_ref.wav
+    showWaveform: true
+    stimuli: 
+      C1: configs/resources/audio/LocAcc_Horiz_7.1.4/Between_Speaker/locAcc_7.1.4_allRad_between.wav
+      C2: configs/resources/audio/LocAcc_Horiz_7.1.4/Between_Speaker/locAcc_7.1.4_Harpex_between.wav
+      C3: configs/resources/audio/LocAcc_Horiz_7.1.4/Between_Speaker/locAcc_7.1.4_DTS_between.wav
+    type: mushra
+  - 
+    content: "Please rate the test files from 0-100 on how similar the horizontal position of the sound source is to the available reference."
+    createAnchor35: true
+    createAnchor70: false
+    enableLooping: true
+    id: locAccHor
+    name: "ELEVATIONAL LOCALISATION ACCURACY; CUBE LAYOUT, AT SPEAKER"
+    reference: configs/resources/audio/LocAcc_Elev_Cube/At_Speaker/locAcc_cube_speaker_elev_ref.wav
+    showWaveform: true
+    stimuli: 
+      C1: configs/resources/audio/LocAcc_Elev_Cube/At_Speaker/locAcc_cube_allRad_speaker_elev.wav
+      C2: configs/resources/audio/LocAcc_Elev_Cube/At_Speaker/locAcc_cube_Harpex_speaker_elev.wav
+      C3: configs/resources/audio/LocAcc_Elav_Cube/At_Speaker/locAcc_cube_DTS_speaker_elev.wav
+    type: mushra
+  - 
+    content: "Please rate the test files from 0-100 on how similar the elevation of the sound source is to the available reference."
+    createAnchor35: true
+    createAnchor70: false
+    enableLooping: true
+    id: locAccElev
+    name: "ELEVATIONAL LOCALISATION ACCURACY; CUBE LAYOUT, BETWEEN SPEAKERS"
+    reference: configs/resources/audio/LocAcc_Elev_Cube/Between_Speakers/locAcc_cube_between_elev_ref.wav
+    showWaveform: true
+    stimuli: 
+      C1: configs/resources/audio/LocAcc_Elev_Cube/Between_Speakers/locAcc_cube_allRad_between_elev.wav
+      C2: configs/resources/audio/LocAcc_Elev_Cube/Between_Speakers/locAcc_cube_Harpex_between_elev.wav
+      C3: configs/resources/audio/LocAcc_Elev_Cube/Between_Speakers/locAcc_cube_DTS_between_elev.wav
+    type: mushra
+  - 
+    content: "Please rate the test files from 0-100 on how similar the horizontal position of the sound source is to the available reference."
+    createAnchor35: true
+    createAnchor70: false
+    enableLooping: true
+    id: locAccHor
+    name: "ELEVATIONAL LOCALISATION ACCURACY; 7.1.4 LAYOUT, AT SPEAKER"
+    reference: configs/resources/audio/LocAcc_Elev_7.1.4/At_Speaker/locAcc_7.1.4_speaker_elev_ref.wav
+    showWaveform: true
+    stimuli: 
+      C1: configs/resources/audio/LocAcc_Elev_7.1.4/At_Speaker/locAcc_7.1.4_allRad_speaker_elev.wav
+      C2: configs/resources/audio/LocAcc_Elev_7.1.4/At_Speaker/locAcc_7.1.4_Harpex_speaker_elev.wav
+      C3: configs/resources/audio/LocAcc_Elav_7.1.4/At_Speaker/locAcc_7.1.4_DTS_speaker_elev.wav
+    type: mushra
+  - 
+    content: "Please rate the test files from 0-100 on how similar the elevation of the sound source is to the available reference."
+    createAnchor35: true
+    createAnchor70: false
+    enableLooping: true
+    id: locAccElev
+    name: "ELEVATIONAL LOCALISATION ACCURACY; 7.1.4 LAYOUT, BETWEEN SPEAKERS"
+    reference: configs/resources/audio/LocAcc_Elev_7.1.4/Between_Speakers/locAcc_7.1.4_between_elev_ref.wav
+    showWaveform: true
+    stimuli: 
+      C1: configs/resources/audio/LocAcc_Elev_7.1.4/Between_Speakers/locAcc_7.1.4_allRad_between_elev.wav
+      C2: configs/resources/audio/LocAcc_Elev_7.1.4/Between_Speakers/locAcc_7.1.4_Harpex_between_elev.wav
+      C3: configs/resources/audio/LocAcc_Elev_7.1.4/Between_Speakers/locAcc_7.1.4_DTS_between_elev.wav
+    type: mushra
+  - 
+    content: "Please rate the test files from 0-100 on how similar the positions of both sound sources are to the available reference."
+    createAnchor35: true
+    createAnchor70: false
+    enableLooping: true
+    id: localiseClose
+    name: "CLOSE PROXIMITY SOURCE LOCALISATION; CUBE LAYOUT"
+    reference: configs/resources/audio/Localisation_Cube/Close/localisation_close_ref.wav
+    showWaveform: true
+    stimuli: 
+      C1: configs/resources/audio/Localisation_Cube/Close/localisation_AllRad_close.wav
+      C2: configs/resources/audio/Localisation_Cube/Close/localisation_Harpex_close.wav
+      C3: configs/resources/audio/Localisation_Cube/Close/localisation_DTS_close.wav
+    type: mushra
+  - 
+    content: "Please rate the test files from 0-100 on how similar the positions of both sound sources are to the available reference."
+    createAnchor35: true
+    createAnchor70: false
+    enableLooping: true
+    id: localiseOpp
+    name: "CLOSE PROXIMITY SOURCE LOCALISATION; 7.1.4 LAYOUT"
+    reference: configs/resources/audio/Localisation_7.1.4/Close/localisation_close_ref.wav
+    showWaveform: true
+    stimuli: 
+      C1: configs/resources/audio/Localisation_7.1.4/Close/localisation_AllRad_close.wav
+      C2: configs/resources/audio/Localisation_7.1.4/Close/localisation_Harpex_close.wav
+      C3: configs/resources/audio/Localisation_7.1.4/Close/localisation_DTS_close.wav
+    type: mushra
+  - 
+    content: "Please rate the test files from 0-100 on how similar the positions of both sound sources are to the available reference."
+    createAnchor35: true
+    createAnchor70: false
+    enableLooping: true
+    id: localiseClose
+    name: "DIAMETRICALLY OPPOSITE SOURCE LOCALISATION;"
+    reference: configs/resources/audio/Localisation_Cube/Opposite/localisation_opposite_ref.wav
+    showWaveform: true
+    stimuli: 
+      C1: configs/resources/audio/Localisation_Cube/Opposite/localisation_AllRad_opposite.wav
+      C2: configs/resources/audio/Localisation_Cube/Opposite/localisation_Harpex_opposite.wav
+      C3: configs/resources/audio/Localisation_Cube/Opposite/localisation_DTS_opposite.wav
+    type: mushra
+  - 
+    content: "Please rate the test files from 0-100 on how similar the positions of both sound sources are to the available reference."
+    createAnchor35: true
+    createAnchor70: false
+    enableLooping: true
+    id: localiseOpp
+    name: "DIAMETRICALLY OPPOSITE SOURCE LOCALISATION"
+    reference: configs/resources/audio/Localisation_7.1.4/Opposite/localisation_opposite_ref.wav
+    showWaveform: true
+    stimuli: 
+      C1: configs/resources/audio/Localisation_7.1.4/Opposite/localisation_AllRad_opposite.wav
+      C2: configs/resources/audio/Localisation_7.1.4/Opposite/localisation_Harpex_opposite.wav
+      C3: configs/resources/audio/Localisation_7.1.4/Opposite/localisation_DTS_opposite.wav
+    type: mushra
+  - 
+    content: "Thank you for attending!"
+    name: "Thank you"
+    questionnaire: 
+      - 
+        label: eMail
+        name: email
+        type: text
+      - 
+        default: 20
+        label: Age
+        max: 100
+        min: 0
+        name: age
+        type: number
+      - 
+        label: Gender
+        name: gender
+        response: 
+          - 
+            label: Female
+            value: female
+          - 
+            label: Male
+            value: male
+          - 
+            label: Other
+            value: other
+        type: likert
+      - 
+        label: "Listening Test Experience"
+        name: experience
+        response: 
+          - 
+            label: None
+            value: none
+          - 
+            label: "Little (1 or 2 previous tests)"
+            value: little
+          - 
+            label: "Considerable (Many Tests, Trained Listener)"
+            value: extensive
+        type: likert
+      - 
+        label: "Do you work with Audio professionally? If so, for how long?"
+        name: detail
+        response: 
+          - 
+            label: "0 years"
+            value: none
+          - 
+            label: "1-3 years"
+            value: little
+          - 
+            label: "3-5 years"
+            value: intermed
+          - 
+            label: "5+ years"
+            value: extensive
+        type: likert
+    showResults: false
+    type: finish
+    writeResults: true
+remoteService: service/write.php
+showButtonPreviousPage: true
+stopOnErrors: true
+testId: Ambisonic_Decoder_Test
+testname: "webMUSHRA Decoder Listening Test"
