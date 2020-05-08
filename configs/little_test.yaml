@@ -34,18 +34,18 @@ pages:
         
         
     - type: mushra
-      id: locAccHor
-      name: HORIZONTAL LOCALISATION ACCURACY; CUBE LAYOUT, AT SPEAKER
-      content: Please rate the test files from 0-100 on how similar the horizontal position of the sound source is to the available reference.
+      id: localiseOpp
+      name: DIAMETRICALLY OPPOSITE SOURCE LOCALISATION
+      content: Please rate the test files from 0-100 on how similar the positions of both sound sources are to the available reference.
       showWaveform: true
       enableLooping: true 
-      reference: configs/resources/audio/LocAcc_Horiz_Cube/At_Speaker/locAcc_cube_speaker_ref.wav 
+      reference: configs/resources/audio/Localisation_7.1.4/Opposite/localisation_opposite_ref.wav
       createAnchor35: true
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/LocAcc_Horiz_Cube/At_Speaker/locAcc_cube_allRad_speaker.wav 
-          C2: configs/resources/audio/LocAcc_Horiz_Cube/At_Speaker/locAcc_cube_Harpex_speaker.wav 
-          C3: configs/resources/audio/LocAcc_Horiz_Cube/At_Speaker/locAcc_cube_DTS_speaker.wav          
+          C1: configs/resources/audio/Localisation_7.1.4/Opposite/localisation_AllRad_opposite.wav
+          C2: configs/resources/audio/Localisation_7.1.4/Opposite/localisation_Harpex_opposite.wav
+          C3: configs/resources/audio/Localisation_7.1.4/Opposite/localisation_DTS_opposite.wav         
     - type: finish
       name: Thank you
       content: Thank you for attending!
