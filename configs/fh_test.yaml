@@ -45,6 +45,7 @@ pages:
       stimuli:
           C1: configs/resources/audio/LocAcc_Horiz_Cube/At_Speaker/locAcc_cube_allRad_speaker.wav 
           C2: configs/resources/audio/LocAcc_Horiz_Cube/At_Speaker/locAcc_cube_DTS_speaker.wav 
+          C3: configs/resources/audio/LocAcc_Horiz_Cube/At_Speaker/locAcc_cube_Harpex_speaker.wav
     - type: mushra
       id: locAccElev
       name: HORIZONTAL LOCALISATION ACCURACY; CUBE LAYOUT, BETWEEN SPEAKERS
