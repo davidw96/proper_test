@@ -61,6 +61,32 @@ pages:
           C3: configs/resources/audio/LocAcc_Horiz_Cube/Between_Speaker/locAcc_cube_DTS_between.wav
     - type: mushra
       id: locAccHor
+      name: HORIZONTAL LOCALISATION ACCURACY; 7.1.4 LAYOUT, AT SPEAKER
+      content: Please rate the test files from 0-100 on how similar the horizontal position of the sound source is to the available reference.
+      showWaveform: true
+      enableLooping: true 
+      reference: configs/resources/audio/LocAcc_Horiz_7.1.4/At_Speaker/locAcc_7.1.4_speaker_ref.wav 
+      createAnchor35: true
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/LocAcc_Horiz_7.1.4/At_Speaker/locAcc_7.1.4_allRad_speaker.wav 
+          C2: configs/resources/audio/LocAcc_Horiz_7.1.4/At_Speaker/locAcc_7.1.4_Harpex_speaker.wav 
+          C3: configs/resources/audio/LocAcc_Horiz_7.1.4/At_Speaker/locAcc_7.1.4_DTS_speaker.wav 
+    - type: mushra
+      id: locAccElev
+      name: HORIZONTAL LOCALISATION ACCURACY; 7.1.4 LAYOUT, BETWEEN SPEAKERS
+      content: Please rate the test files from 0-100 on how similar the elevation of the sound source is to the available reference.
+      showWaveform: true
+      enableLooping: true 
+      reference: configs/resources/audio/LocAcc_Horiz_7.1.4/Between_Speaker/locAcc_7.1.4_between_ref.wav
+      createAnchor35: true
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/LocAcc_Horiz_7.1.4/Between_Speaker/locAcc_7.1.4_allRad_between.wav
+          C2: configs/resources/audio/LocAcc_Horiz_7.1.4/Between_Speaker/locAcc_7.1.4_Harpex_between.wav
+          C3: configs/resources/audio/LocAcc_Horiz_7.1.4/Between_Speaker/locAcc_7.1.4_DTS_between.wav
+    - type: mushra
+      id: locAccHor
       name: ELEVATIONAL LOCALISATION ACCURACY; CUBE LAYOUT, AT SPEAKER
       content: Please rate the test files from 0-100 on how similar the horizontal position of the sound source is to the available reference.
       showWaveform: true
@@ -85,6 +111,32 @@ pages:
           C1: configs/resources/audio/LocAcc_Elev_Cube/Between_Speakers/locAcc_cube_allRad_between_elev.wav
           C2: configs/resources/audio/LocAcc_Elev_Cube/Between_Speakers/locAcc_cube_Harpex_between_elev.wav
           C3: configs/resources/audio/LocAcc_Elev_Cube/Between_Speakers/locAcc_cube_DTS_between_elev.wav
+    - type: mushra
+      id: locAccHor
+      name: ELEVATIONAL LOCALISATION ACCURACY; 7.1.4 LAYOUT, AT SPEAKER
+      content: Please rate the test files from 0-100 on how similar the horizontal position of the sound source is to the available reference.
+      showWaveform: true
+      enableLooping: true 
+      reference: configs/resources/audio/LocAcc_Elev_7.1.4/At_Speaker/locAcc_7.1.4_speaker_elev_ref.wav 
+      createAnchor35: true
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/LocAcc_Elev_7.1.4/At_Speaker/locAcc_7.1.4_allRad_speaker_elev.wav 
+          C2: configs/resources/audio/LocAcc_Elev_7.1.4/At_Speaker/locAcc_7.1.4_Harpex_speaker_elev.wav 
+          C3: configs/resources/audio/LocAcc_Elav_7.1.4/At_Speaker/locAcc_7.1.4_DTS_speaker_elev.wav 
+    - type: mushra
+      id: locAccElev
+      name: ELEVATIONAL LOCALISATION ACCURACY; 7.1.4 LAYOUT, BETWEEN SPEAKERS
+      content: Please rate the test files from 0-100 on how similar the elevation of the sound source is to the available reference.
+      showWaveform: true
+      enableLooping: true 
+      reference: configs/resources/audio/LocAcc_Elev_7.1.4/Between_Speakers/locAcc_7.1.4_between_elev_ref.wav
+      createAnchor35: true
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/LocAcc_Elev_7.1.4/Between_Speakers/locAcc_7.1.4_allRad_between_elev.wav
+          C2: configs/resources/audio/LocAcc_Elev_7.1.4/Between_Speakers/locAcc_7.1.4_Harpex_between_elev.wav
+          C3: configs/resources/audio/LocAcc_Elev_7.1.4/Between_Speakers/locAcc_7.1.4_DTS_between_elev.wav
     - type: mushra
       id: localiseClose
       name: CLOSE PROXIMITY SOURCE LOCALISATION; CUBE LAYOUT
