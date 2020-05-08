@@ -129,7 +129,7 @@ var configFile = 'configs/Decoder_test.yaml';
 if (configArg) {
     configFile = 'configs/' + configArg;
 } else {
-    configFile = 'configs/Decoder_test.yaml';
+    configFile = 'configs/fh_test.yaml';
   }
 
   var pageManager = null;
