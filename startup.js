@@ -125,11 +125,11 @@ localizer.initializeNLSFragments(nls);
 
 var config = null;
 var configArg = getParameterByName("config");
-var configFile = 'configs/cube.yaml';
+var configFile = 'configs/Decoder_test.yaml';
 if (configArg) {
     configFile = 'configs/' + configArg;
 } else {
-    configFile = 'configs/cube.yaml';
+    configFile = 'configs/Decoder_test.yaml';
   }
 
   var pageManager = null;
