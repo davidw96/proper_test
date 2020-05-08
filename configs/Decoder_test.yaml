@@ -84,7 +84,7 @@ pages:
       stimuli:
           C1: configs/resources/audio/LocAcc_Elev_Cube/Between_Speakers/locAcc_cube_allRad_between_elev.wav
           C2: configs/resources/audio/LocAcc_Elev_Cube/Between_Speakers/locAcc_cube_Harpex_between_elev.wav
-          C3: configs/resources/audio/LocAcc_Elev_Cube/Between_Speakers/locAcc_cube_DTS_between_elev.wav		  
+          C3: configs/resources/audio/LocAcc_Elev_Cube/Between_Speakers/locAcc_cube_DTS_between_elev.wav
     - type: mushra
       id: localiseClose
       name: CLOSE PROXIMITY SOURCE LOCALISATION; CUBE LAYOUT
@@ -183,4 +183,5 @@ pages:
              - value: intermed
                label: 3-5 years
              - value: extensive
-               label: 5+ years             
+               label: 5+ years     
+    
